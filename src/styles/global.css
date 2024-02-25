@@ -28,7 +28,7 @@ main {
 
 
 h1 {
-        color: purple;
+    color: purple;
     font-size: 4rem;
     font-weight: 700;
     line-height: 1;
@@ -91,4 +91,13 @@ h1 {
         padding: 15px 20px;
     }
 
+}
+
+html.dark {
+    background-color: #0d0950;
+    color: #fff;
+}
+
+.dark .nav-links a {
+    color: #fff;
 }
